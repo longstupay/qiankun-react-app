@@ -171,7 +171,7 @@ const Header = () => {
                     个人网站子应用，计划处理网站的邮件管理 留言页面，暂无。
                   </p>
                   <div className="mt-8 font-semibold text-white flex items-center gap-2">
-                    <a className="portfolio-link bg-cyan-400 a-hover" href="#" onClick={e=>e.preventDefault()}>
+                    <a className="portfolio-link bg-cyan-400 a-hover" href="#github-ng" onClick={e=>e.preventDefault()}>
                       <img className="w-5 h-5" src="https://qiankun-app.oss-cn-shenzhen.aliyuncs.com/github.svg" alt="github" />
                       github</a>
                     <Link  className="portfolio-link bg-gray-600 dark:bg-black" to="/app3">
@@ -193,7 +193,7 @@ const Header = () => {
                     vue子应用，计划配合Rss订阅展示咨询，或者展示后期python 抓取的数据。仍在建设。
                   </p>
                   <div className="mt-8 font-semibold text-white flex items-center gap-2">
-                    <a className="portfolio-link bg-cyan-400 a-hover" href="#" onClick={e=>e.preventDefault()}>
+                    <a className="portfolio-link bg-cyan-400 a-hover" href="#github-vue" onClick={e=>e.preventDefault()}>
                       <img className="w-5 h-5" src="https://qiankun-app.oss-cn-shenzhen.aliyuncs.com/github.svg" alt="github" />
                       github</a>
                     <Link className="portfolio-link bg-gray-600 dark:bg-black" to="/myapp2">
